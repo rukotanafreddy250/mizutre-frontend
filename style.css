@@ -1,0 +1,12 @@
+body::before {
+    display: block;
+    content: ''; /*it adds a ghost element with nothing there to push it down a bit */
+    height: 60px;
+}
+
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
